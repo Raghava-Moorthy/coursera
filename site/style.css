@@ -32,12 +32,7 @@ h1{
     border: 1px solid black;
     background : chartreuse;
 }
-.col-3{
-    width: 33.3%;
-    float: left;
-    padding: 2px;
-    border: 1px solid black;
-    background : chartreuse;
+
 }
 .col-1{
     width: 33.3%;
@@ -63,9 +58,7 @@ p{
     .col-2{
         width: 33.333%;
     }
-   .col-3{
-        width: 33.333%;
-    }
+   
    .col-1{
         width: 33.333%;
     }
@@ -75,9 +68,7 @@ p{
     .col-2{
         width: 50%;
     }
-.col-3{
-width:50%;
-}
+
     .col-1{
         width: 100%;
     }
@@ -90,9 +81,8 @@ width:50%;
     .col-1{
         width: 100%;
     }
-.col-3{
-width:100%;
-}
+
+
 }
 .col-2 h2{
     text-align: right;
@@ -111,14 +101,7 @@ width:100%;
     border-radius:5px;
 }
 
-.col-3 h2{
-    text-align: right;
-    color: lavender;
-   background-color: red;
-    float: right;
-    border:1px solid black;
-    border-radius:5px;
-}
+
 
 
 
