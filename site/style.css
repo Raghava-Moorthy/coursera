@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background :radial-gradient(#fff,#0ef5d7);
+
+}
+
+h1{
+    text-align: center;
+    color: #e90052;
+    font-family: cursive;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.container{
+    max-width:1200px;
+    padding: 25px;
+    margin:auto;
+}
+.row{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width:100%;
+}
+.col-2{
+    width: 33.3%;
+    float: left;
+    padding: 2px;
+    border: 1px solid black;
+    background : chartreuse;
+}
+.col-1{
+    width: 33.3%;
+    float: right;
+    border: 1.5px solid black;
+    background : chartreuse;
+    padding: 2px;
+}
+p{
+    width: 90%;
+    display: table;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:cursive;
+    color:brown;
+}
+
+
+
+/*media query for desktop*/
+@media(min-width:992px){
+    .col-2{
+        width: 33.333%;
+    }
+}
+/*media query for tablet*/
+@media (min-width:768px) and (max-width:991px) {
+    .col-2{
+        width: 50%;
+    }
+    .col-1{
+        width: 100%;
+    }
+}
+/*media query for mobile*/
+@media(max-width:767px){
+    .col-2{
+        width: 100%;
+    }
+    .col-1{
+        width: 100%;
+    }
+}
+.col-2 h2{
+    text-align: right;
+    color: lavender;
+   background-color: red;
+    float: right;
+    border: 1px solid black;
+    border-radius:5px;
+}
+.col-1 h2{
+    text-align: right;
+    color: lavender;
+   background-color: red;
+    float: right;
+    border:1px solid black;
+    border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
