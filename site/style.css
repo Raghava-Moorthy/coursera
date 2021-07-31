@@ -59,9 +59,7 @@ p{
         width: 33.333%;
     }
    
-   .col-1{
-        width: 33.333%;
-    }
+   
 }
 /*media query for tablet*/
 @media (min-width:768px) and (max-width:991px) {
