@@ -34,7 +34,7 @@ h1{
 }
 .col-1{
     width: 33.3%;
-    float: right;
+    float:right;
     border: 1.5px solid black;
     background : chartreuse;
     padding: 2px;
