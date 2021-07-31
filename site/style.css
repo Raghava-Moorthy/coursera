@@ -111,6 +111,15 @@ width:100%;
     border-radius:5px;
 }
 
+.col-3 h2{
+    text-align: right;
+    color: lavender;
+   background-color: red;
+    float: right;
+    border:1px solid black;
+    border-radius:5px;
+}
+
 
 
 
