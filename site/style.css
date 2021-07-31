@@ -32,6 +32,13 @@ h1{
     border: 1px solid black;
     background : chartreuse;
 }
+.col-3{
+    width: 33.3%;
+    float: left;
+    padding: 2px;
+    border: 1px solid black;
+    background : chartreuse;
+}
 .col-1{
     width: 33.3%;
     float: right;
@@ -56,12 +63,21 @@ p{
     .col-2{
         width: 33.333%;
     }
+   .col-3{
+        width: 33.333%;
+    }
+   .col-1{
+        width: 33.333%;
+    }
 }
 /*media query for tablet*/
 @media (min-width:768px) and (max-width:991px) {
     .col-2{
         width: 50%;
     }
+.col-3{
+width:50%;
+}
     .col-1{
         width: 100%;
     }
@@ -74,6 +90,9 @@ p{
     .col-1{
         width: 100%;
     }
+.col-3{
+width:100%;
+}
 }
 .col-2 h2{
     text-align: right;
