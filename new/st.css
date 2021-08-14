@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding:0;
+}
+h1{
+    text-align:center;
+    font-style:cursive;
+    color:rgba(211, 44, 44, 0.794);
+    margin-top:10px;
+    
+}
